@@ -102,6 +102,7 @@ int main(void)
 	        brightness += 10;
 	        __HAL_TIM_SET_COMPARE(&htim3, TIM_CHANNEL_1, brightness);
 	        HAL_Delay(1);
+
 	     }
 	  //PWM
 //	  __HAL_TIM_SetCompare(&htim3,TIM_CHANNEL_1,100); //180
